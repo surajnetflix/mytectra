@@ -4,3 +4,5 @@ env_flask/
 /.git/
 /myflask/
 myflask/
+.idea/
+/.idea/

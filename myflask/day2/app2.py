@@ -15,7 +15,7 @@ def hello_user(name):
     if name == "admin":
         return redirect(url_for('hello_admin'))
     else:
-        return redirect(url_for('hello_guest', guest='Suraj__Shedge'))
+        return redirect(url_for('hello_guest', guest=name))
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
